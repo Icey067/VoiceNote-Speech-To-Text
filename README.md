@@ -213,7 +213,3 @@ curl -X POST http://localhost:3000/api/analyze \
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
-<p align="center">
-  Built with ❤️ using IBM Watson AI
-</p>
