@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  voicenote:
+    build: .
+    container_name: voicenote-app
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./uploads:/usr/src/app/uploads
+    restart: unless-stopped
